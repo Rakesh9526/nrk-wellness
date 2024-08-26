@@ -732,7 +732,7 @@ hero-btn {
 /* scrollUp */
 /* line 431, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 #scrollUp, #back-top {
-  background: #14435c;
+  background: #31b8c5;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -4559,7 +4559,7 @@ hero-btn {
 
 /* line 64, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-  color: #31b8c5;
+  color: #d3d3d4;
   font-size: 30px;
   font-weight: 600;
 }
@@ -4648,7 +4648,7 @@ hero-btn {
 
 /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 20px;
   color: #bdbdbd;
 }
