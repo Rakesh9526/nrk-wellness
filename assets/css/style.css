@@ -8482,9 +8482,20 @@ p {
 /* Popup container styles */
 .popup-container {
   position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  bottom: 20px; /* Position at the bottom of the screen */
+  right: 20px; /* Position at the right side of the screen */
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  display: none; /* Hidden by default */
+  animation: slide-in 0.5s ease-out; /* Slide-in animation */
+}
+
+/* Popup container styles */
+.popup-container {
+  position: fixed;
+  top: 20px; /* Position at the top of the screen */
+  right: 20px; /* Position at the right side of the screen */
   width: auto;
   height: auto;
   z-index: 9999;
@@ -8495,11 +8506,11 @@ p {
 /* Popup content styles */
 .popup-content {
   position: relative;
-  background-color:;
+  background-color: ; /* Add background color */
   border-radius: 8px;
-  box-shadow: ;
-  padding: 15px; /* Reduced padding for mobile screens */
-  max-width: 100%;
+  box-shadow: ; /* Add a shadow for depth */
+  padding: 10px;
+  max-width: 90vw;
   width: 250px; /* Default width for larger screens */
 }
 
@@ -8510,20 +8521,20 @@ p {
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 /* Popup container animation */
 @keyframes slide-in {
   from {
-      transform: translateY(-50%) translateX(100%);
+      transform: translateY(-100%);
       opacity: 0;
   }
   to {
-      transform: translateY(-50%) translateX(0);
+      transform: translateY(0);
       opacity: 1;
   }
 }
@@ -8532,21 +8543,28 @@ p {
 @media (max-width: 768px) {
   .popup-content {
       width: 80vw; /* Adjust width for tablet screens */
+      padding: 10px;
   }
 }
 
 @media (max-width: 480px) {
+  .popup-container {
+      top: 10px; /* Position closer to the top */
+      right: 10px; /* Position closer to the right side */
+  }
   .popup-content {
-      width: 90vw; /* Further adjust width for smaller mobile screens */
-      padding: 10px; /* Reduced padding for very small screens */
+      width: 70vw; /* Further adjust width for smaller mobile screens */
+      padding: 8px; /* Reduced padding for very small screens */
   }
 
   .close-btn {
-      top: 5px;
-      right: 5px;
-      font-size: 20px;
+      top: 3px;
+      right: 3px;
+      font-size: 18px;
   }
 }
+
+
 
 
 /* <!-- Custom CSS for Responsiveness --> */
