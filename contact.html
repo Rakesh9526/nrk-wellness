@@ -32,7 +32,7 @@
 
 <body>
     <!-- Preloader Start -->
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader Start -->
     <header>
         <!-- Header Start -->
@@ -133,7 +133,7 @@
                 <div class="d-none d-sm-block mb-5 pb-4">
                     <div class="col-12">
                         <div class="h-100 overflow-hidden">
-                            <iframe class="w-100 rounded" style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.487267323775!2d76.18680257428471!3d10.540990563493818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7efbc50572d89%3A0xa62dfb1262042a9c!2sNRK%20WELLNESS%20PVT%20LTD%20-%20Complete%20Water%20Solutions!5e0!3m2!1sen!2sin!4v1723182327806!5m2!1sen!2sin"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="w-100 rounded border" style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.487267323775!2d76.18680257428471!3d10.540990563493818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7efbc50572d89%3A0xa62dfb1262042a9c!2sNRK%20WELLNESS%20PVT%20LTD%20-%20Complete%20Water%20Solutions!5e0!3m2!1sen!2sin!4v1723182327806!5m2!1sen!2sin"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             
                         </div>
                     </div>
@@ -146,14 +146,15 @@
                     <div class="col-lg-8">
                         <form class="form-contact contact_form"  id="submit-form" method="post" novalidate="novalidate" >
                             <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
+                                
+                                <div class="col-sm-3">
                                     <div class="form-group">
                                         <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <input class="form-control" name="mobile" id="mobile" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Mobile Number'" placeholder="Enter your number">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -161,9 +162,10 @@
                                         <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
                                     </div>
                                 </div>
+                                
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +214,7 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/nrklogo.png" alt="" style="width: 110px; height: 110px;"></a>
+                                    <a href="index.html"><img src="assets/img/output-onlinepngtools.png" alt="" style="width: 100px; height: 100px;"></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
@@ -221,8 +223,8 @@
                                 </div>
                                 <div class="footer-number">
                                     <p class="info1">For Free Water Testing and Filter Testing.</p>
-                                    <h4 style="color: #31b8c5;"><i class="fa-solid fa-phone"></i> <span>+91 </span>9961 997 274</h4>
-                                    <h4 style="color: #31b8c5;"><i class="fa-solid fa-phone"></i> <span>+91 </span>7274 800 600</h4>
+                                    <h4 style="color: #31b8c5;"><i class="fa-solid fa-phone"></i> <span>+91 9961 997 274</span></h4>
+                                    <h4 style="color: #31b8c5;"><i class="fa-solid fa-phone"></i> <span>+91 7274 800 600</span></h4>
                                     <p><i class="fa-regular fa-envelope"></i> wellness.nrk@gmail.com</p>
                                 </div>
                             </div>
@@ -286,21 +288,11 @@
                 <div class="footer-bottom">
                     <div class="row d-flex justify-content-between align-items-center">
                         <div class="col-xl-12 col-lg-8">
-                            <div class="footer-copy-right" >
-                                <p style="text-align: center;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      nrkwellness &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            <div class="footer-copy-right text-center">
+                                <p>nrkwellness &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+                                <p class="designed-by">Designed and Maintained By <a href="https://velveteksystems.com/" style="color: white;">Velvetek Systems</a></p>
                             </div>
                         </div>
-                        <!-- <div class="col-xl-3 col-lg-4">
-                           
-                            <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>

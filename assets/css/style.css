@@ -2767,7 +2767,7 @@ hero-btn {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 195px;
+    padding-top: 120px;
     padding-bottom: 170px;
   }
 }
@@ -3500,7 +3500,7 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 900px;
+  height: 700px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3533,7 +3533,7 @@ hero-btn {
 
 /* line 18, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height2 {
-  height: 450px;
+  height: 300px;
   background-size: cover;
 }
 
@@ -3560,16 +3560,17 @@ hero-btn {
 
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(../img/pexels-pixabay-45229.jpg);
+  background-image: url(../img/pexels-cottonbro-4098280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
   
 }
 
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/lady-with-glass.png);
+  background-image: url(../img/lady-1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3937,7 +3938,7 @@ hero-btn {
   content: "";
   width: 100%;
   height: 0;
-  background: #31b8c5;
+  background:transparent;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -4019,31 +4020,33 @@ hero-btn {
 /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover {
   border: 1px solid transparent;
+  
 }
 
 /* line 77, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover::before {
   height: 100%;
+  background: transparent; /* Change background to transparent */
 }
 
 /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover .cat-icon span {
-  color: #fff;
+  color: #31b8c5;
 }
 
 /* line 86, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover .cat-cap h5 {
-  color: #fff;
+  color: #31b8c5;
 }
 
 /* line 89, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover .cat-cap p {
-  color: #fff;
+  color: #31b8c5;
 }
 
 /* line 92, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat:hover .cat-cap a {
-  color: #fff;
+  color: #31b8c5;
 }
 
 /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
@@ -4108,6 +4111,7 @@ hero-btn {
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_count_down.scss */
 .count-down-area {
   margin-top: -60px;
+  padding-bottom: 120px;
 }
 
 /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_count_down.scss */
@@ -4360,8 +4364,7 @@ hero-btn {
 /* line 6, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
 .team-area .single-team .team-img img {
   width: 100%;
-  transform: scale(1);
-  transition: all 0.6s ease-out 0s;
+  
 }
 
 /* line 12, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
@@ -4403,7 +4406,7 @@ hero-btn {
 
 /* line 45, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
 .single-team:hover .team-img img {
-  transform: scale(1.05);
+  transform: scale();
 }
 
 /* line 49, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
@@ -4434,7 +4437,7 @@ hero-btn {
   content: "";
   width: 54px;
   height: 2px;
-  background: #31b8c5;;
+  background: #31b8c5;
   top: 0;
   left: 0px;
   top: 50%;
@@ -4921,11 +4924,7 @@ hero-btn {
 
 /* line 5, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single {
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
+  
 }
 
 /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -4937,10 +4936,8 @@ hero-btn {
 /* line 11, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-img img {
   width: 100%;
-  -webkit-transform: scale 1;
-  -ms-transform: scale 1;
-  transform: scale 1;
-  transition: all 0.5s ease-out 0s;
+  ;
+  
 }
 
 /* line 16, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5101,9 +5098,7 @@ hero-btn {
 
 /* line 113, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .home-blog-single:hover .blog-img img {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+ 
 }
 
 /* Start Blog Area css
@@ -8440,6 +8435,238 @@ p {
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+}
+
+
+.marketing-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: var(--wp-admin--marketing-bar--height);
+  width: 100%;
+  padding: 0 12px;
+  z-index: 99997;
+  overflow: hidden;
+  background: #fff;
+  color: ;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 1px 3px rgba(0, 0, 0, .08), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.marketing-bar .marketing-bar-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  margin-left: 2px;
+}
+
+
+.grayscale-img {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease-in-out;
+}
+
+.grayscale-img:hover {
+  filter: grayscale(0%);
+}
+
+/* Popup container styles */
+.popup-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  display: none; /* Hidden by default */
+  animation: slide-in 0.5s ease-out; /* Slide-in animation */
+}
+
+/* Popup content styles */
+.popup-content {
+  position: relative;
+  background-color:;
+  border-radius: 8px;
+  box-shadow: ;
+  padding: 15px; /* Reduced padding for mobile screens */
+  max-width: 100%;
+  width: 250px; /* Default width for larger screens */
+}
+
+.popup-content img {
+  width: 100%; /* Make image responsive */
+  height: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Popup container animation */
+@keyframes slide-in {
+  from {
+      transform: translateY(-50%) translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(-50%) translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .popup-content {
+      width: 80vw; /* Adjust width for tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-content {
+      width: 90vw; /* Further adjust width for smaller mobile screens */
+      padding: 10px; /* Reduced padding for very small screens */
+  }
+
+  .close-btn {
+      top: 5px;
+      right: 5px;
+      font-size: 20px;
+  }
+}
+
+
+/* <!-- Custom CSS for Responsiveness --> */
+
+@media (max-width: 768px) {
+    .single-cat {
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cat-icon img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cat-cap h5 {
+        font-size: 16px;
+    }
+
+    .cat-cap p {
+        font-size: 14px;
+    }
+    
+    .section-tittle h2 {
+        font-size: 24px;
+    }
+
+    .section-tittle p {
+        font-size: 14px;
+    }
+
+    .button.boxed-btn {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section-tittle .button.boxed-btn {
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+}
+
+/* footer last */
+
+.footer-copy-right {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer-copy-right .designed-by {
+  margin-top: 10px; /* Add some space between the texts */
+  display: block; /* Force it to appear on a new line */
+  width: 100%; /* Make sure it takes up the full width */
+  text-align: center; /* Center the text */
+}
+
+@media (max-width: 767px) {
+  .footer-copy-right .designed-by {
+      margin-top: 10px; /* Ensure spacing on smaller screens */
+  }
+}
+
+/* For devices with width less than or equal to 768px */
+@media (max-width: 768px) {
+  .header-area .logo img {
+      width: 40px; /* Adjust the logo size for mobile */
+      height: 45px;
+  }
+  .main-menu {
+      display: none; /* Hide the desktop menu */
+  }
+  .mobile_menu {
+      display: block; /* Show the mobile menu */
+  }
+  .header-bottom {
+      padding: 10px 0; /* Adjust padding */
+  }
+}
+
+
+/* For devices with width less than or equal to 768px */
+@media (max-width: 768px) {
+  .slider-area {
+      height: auto; /* Adjust slider height */
+  }
+  .single-slider {
+      padding: 30px 20px; /* Adjust padding for mobile */
+  }
+  .hero__caption h1 {
+      font-size: 24px; /* Smaller font size for mobile */
+      line-height: 30px;
+  }
+  .hero__caption span {
+      font-size: 16px;
+  }
+  .hero__caption p {
+      font-size: 14px;
+  }
+  .hero__btn a {
+      font-size: 14px;
+      padding: 10px 20px; /* Adjust button size */
+  }
+}
+
+/* Adjust the pop-up for mobile screens */
+@media (max-width: 768px) {
+  .popup-container {
+      width: 80%; /* Smaller width on mobile */
+      right: 10%; /* Centered horizontally */
+      bottom: 20px; /* Adjust position from the bottom */
+  }
+  .popup-content img {
+      width: 100%; /* Make image responsive */
+      height: auto;
+  }
+  .close-btn {
+      font-size: 20px; /* Adjust close button size */
   }
 }
 
