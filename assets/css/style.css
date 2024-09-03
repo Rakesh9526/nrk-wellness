@@ -8689,3 +8689,22 @@ p {
 }
 
 
+.brand-active {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjusts spacing between the images */
+}
+
+.single-brand {
+  flex: 1 0 18%; /* Adjust the width percentage to control how many images per row */
+  max-width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Ensuring the same layout on mobile screens */
+@media (max-width: 768px) {
+  .single-brand {
+      flex: 1 0 18%; /* Adjust to the same percentage as the desktop layout */
+  }
+}
