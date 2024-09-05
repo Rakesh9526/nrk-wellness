@@ -3081,7 +3081,7 @@ hero-btn {
 
 /* line 981, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .section-tittle2 span::before {
-  background: #fff;
+  background: #31b8c5;
 }
 
 /* line 985, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -8707,4 +8707,9 @@ p {
   .single-brand {
       flex: 1 0 18%; /* Adjust to the same percentage as the desktop layout */
   }
+}
+
+.whatsapp-image {
+  width: 200px;  /* Adjust this value to your desired width */
+  height: auto; /* Maintains the aspect ratio */
 }
