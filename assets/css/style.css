@@ -3570,7 +3570,7 @@ hero-btn {
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/lady-1.png);
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4729,6 +4729,11 @@ hero-btn {
 
 /* line 59, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+.footer-line a:hover {
   color: #fff;
   padding-left: 5px;
 }
@@ -8697,7 +8702,7 @@ p {
 
 .single-brand {
   flex: 1 0 18%; /* Adjust the width percentage to control how many images per row */
-  max-width: 100px;
+  max-width: 140px;
   margin: 10px;
   text-align: center;
 }
@@ -8712,4 +8717,87 @@ p {
 .whatsapp-image {
   width: 200px;  /* Adjust this value to your desired width */
   height: auto; /* Maintains the aspect ratio */
+}
+
+.slider-height {
+    height: 100vh; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Container for the logos */
+.logo-container {
+  width: 100%; /* Full container width */
+  overflow:; /* Hide logos outside the view */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: ; /* Optional background */
+}
+
+/* Row of logos */
+.logo-row {
+  display: flex;
+  gap: 30px; /* Spacing between logos */
+  animation: scroll 40s linear infinite; /* 40s scroll animation */
+  white-space: nowrap; /* Ensure logos are in a single line */
+  width: calc(150px * 26); /* Calculate based on logo size and number of logos */
+  transform: translateX(0); /* Start position */
+}
+
+/* Styling for each logo */
+.logo-row img {
+  width: 100px; /* Set logo width */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Scrolling animation */
+@keyframes scroll {
+  0% {
+      transform: translateX(calc(100% - 100vw)); /* Start from outside the viewport */
+  }
+  100% {
+      transform: translateX(-100%); /* End at the beginning of the row */
+  }
+}
+
+
+.slider-area {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.slider-image.active {
+  opacity: 1; /* Show the active image */
+}
+
+.single-slider {
+  position: relative;
+  z-index: 2; /* Ensure the content is above the images */
 }
